@@ -41,3 +41,7 @@ Apache-2.0 © [hewenxuan]()
 [daviddm-url]: https://david-dm.org//generator-wx-vue
 [coveralls-image]: https://coveralls.io/repos//generator-wx-vue/badge.svg
 [coveralls-url]: https://coveralls.io/r//generator-wx-vue
+
+
+npm audit --audit-level high 代替 nsp check
+https://stackoverflow.com/questions/53716991/node-security-service-shutdown-getaddrinfo-enotfound-api-nodesecurity-io

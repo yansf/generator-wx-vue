@@ -39,7 +39,8 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
+    "prepublish": "npm audit --audit-level high",
+    
     "pretest": "eslint . --fix",
     "test": "jest"
   },
@@ -48,7 +49,8 @@
     "env": {
       "jest": true,
       "node": true
-    }
+    },
+    "linebreak-style": ["off", "windows"]
   },
   "bugs": {
     "url": "https://github.com/WenXuanHe/generator-wx-vue/issues"
